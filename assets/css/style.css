@@ -1,0 +1,243 @@
+
+/*=========================
+  Basic css 
+==========================*/
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+}
+body {
+   font-family: 'Playfair Display', serif;
+}
+a:hover { text-decoration: none }
+
+
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+.mainmenu li {
+    display: inline-block;
+    padding-left: 95px;
+}
+.mainmenu li a {
+    display: block;
+    text-transform: uppercase;
+    padding: 70px 0;
+    color:#626262;
+}
+.logo {
+    padding: 70px 0;
+}
+.blog-featured-content img {
+    width:100%;
+}
+.single-blog-item {
+    margin-bottom: 120px;
+}
+.single-blog-item h2 {
+    margin: 20px 0 25px;
+}
+.single-blog-item h2 a {
+    color: #626262;
+}
+.blog-meta {
+    text-transform: uppercase;
+} 
+.blog-meta a {
+    color: #b4ac9f;
+}
+.blog-readmore-btn {
+    color: #b4acf9;
+    text-transform:uppercase;
+}
+.blog-box-content p:last-child {
+    margin-bottom: 0;
+}
+.blog-box-content {
+    margin-bottom: 30px
+}
+.newsletter-area {
+    background:#f0f0f0;
+    padding: 70px 0;
+}
+.newsletter-area h2 {
+    margin-bottom: 50px;
+}
+.newsletter-form {
+    max-width: 360px;
+    margin: 0 auto;
+    border-bottom: 1px solid #000;
+    position: relative;
+    margin-bottom: 120px;
+}
+.newsletter-form input[type=email] {
+    border: none;
+    background: #f0f0f0;
+    padding: 10px;
+    width: 100%;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus {
+    outline: 0 solid;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    margin: 0 0 15px;
+}
+body {
+    font-family: "Playfair Display",serif;
+}
+a:hover {
+    text-decoration: none;
+}
+.mainmenu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.mainmenu li {
+    display: inline-block;
+    padding-left: 95px;
+}
+.mainmenu li a {
+    display: block;
+    padding: 70px 0;
+    text-transform: uppercase;
+}
+.logo {
+    padding: 70px 0;
+}
+.blog-featured-content{
+    margin-bottom: 30px;
+}
+.big-blog-box .blog-featured-content {
+    margin-bottom: 80px;
+}
+.blog-featured-content img {
+    width: 100%;
+}
+.single-blog-item {
+    margin-bottom: 120px;
+}
+.single-blog-item h2 {
+    margin: 20px 0 25px;
+}
+.single-blog-item h2 a {
+    color: #626262;
+}
+.blog-meta {
+    text-transform: uppercase;
+}
+.blog-meta a {
+    color: #b4ac9f;
+}
+.blog-readmore-btn {
+    color: #b4acf9;
+    text-transform: uppercase;
+}
+.blog-box-content p:last-child {
+    margin-bottom: 0;
+}
+.blog-box-content {
+    margin-bottom: 30px;
+}
+.newsletter-area {
+    background: #f0f0f0 none repeat scroll 0 0;
+    padding: 70px 0;
+}
+.newsletter-area h2 {
+    margin-bottom: 50px;
+}
+.newsletter-form {
+    border-bottom: 1px solid #000;
+    margin: 0 auto 120px;
+    max-width: 360px;
+    position: relative;
+}
+.newsletter-form input[type="email"] {
+    background: #f0f0f0 none repeat scroll 0 0;
+    border: medium none;
+    padding: 10px;
+    width: 100%;
+}
+.newsletter-form button {
+    border: medium none;
+    padding: 9px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.load-more-btn{
+    display: inline-block;
+    border: 1px solid #626262;
+    color:#626262;
+    font-size: 20px;
+    padding: 15px 30px;
+}
+.footer-area{
+    background: #f0f0f0;
+    margin-top: 90px;
+    padding: 35px 0;
+}
+.footer-area a {
+    color: #000;
+}
+.footer-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-area li {
+    display: inline-block;
+    margin-right: 40px;
+    
+    
+}
+.footer-area .text-right a {
+    padding-left: 14px;
+}
+.load-more-btn-wraper {
+    margin-top: -30px;
+}
